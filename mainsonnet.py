@@ -18,7 +18,7 @@ class sonnetApp(ctk.CTk):
 
         self.title("sonnetMcPy")
         self.geometry("700x500")
-        self.iconbitmap(False, "sonnetlogo.ico")
+        self.iconbitmap(False, "images/sonnetlogo.ico")
 
         self.modlist_path = ctk.StringVar()
         self.output_dir = ctk.StringVar(value="mods")
