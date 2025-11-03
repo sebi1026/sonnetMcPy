@@ -1,0 +1,512 @@
+[
+    {
+        "filename": "AmbientSounds_FABRIC_v6.1.11_mc1.20.1.jar",
+        "name": "AmbientSounds",
+        "url": "https://modrinth.com/mod/fM515JnW",
+        "version": "6.1.11"
+    },
+    {
+        "filename": "appleskin-fabric-mc1.20.1-2.5.1.jar",
+        "name": "AppleSkin",
+        "url": "https://modrinth.com/mod/EsAfCjCV",
+        "version": "2.5.1+mc1.20"
+    },
+    {
+        "filename": "archers-1.3.0+1.20.1.jar",
+        "name": "Archers (RPG Series)",
+        "url": "https://modrinth.com/mod/QgooUXAJ",
+        "version": "1.3.0+1.20.1"
+    },
+    {
+        "filename": "archers-expansion-0.2.6-1.20.1.jar",
+        "name": "Archers Expansion",
+        "url": "https://modrinth.com/mod/1BHIIm4m",
+        "version": "0.2.6-1.20.1"
+    },
+    {
+        "filename": "azurelibarmor-fabric-1.20.1-2.0.14.jar",
+        "name": "AzureLib Armor",
+        "url": "https://modrinth.com/mod/pduQXSbl",
+        "version": "2.0.14"
+    },
+    {
+        "filename": "bettercombat-fabric-1.8.6+1.20.1.jar",
+        "name": "Better Combat",
+        "url": "https://modrinth.com/mod/5sy6g3kz",
+        "version": "1.8.6+1.20.1"
+    },
+    {
+        "filename": "cherishedworlds-fabric-6.1.7+1.20.1.jar",
+        "name": "Cherished Worlds",
+        "url": "https://modrinth.com/mod/3azQ6p0W",
+        "version": "6.1.7+1.20.1"
+    },
+    {
+        "filename": "cloth-config-11.1.136-fabric.jar",
+        "name": "Cloth Config v11",
+        "url": "https://modrinth.com/mod/9s6osm5g",
+        "version": "11.1.136"
+    },
+    {
+        "filename": "common-networking-fabric-1.0.5-1.20.1.jar",
+        "name": "Common Network",
+        "url": "https://modrinth.com/mod/HIuqnQpi",
+        "version": "1.0.5-1.20.1"
+    },
+    {
+        "filename": "continuity-3.0.0+1.20.1.jar",
+        "name": "Continuity",
+        "url": "https://modrinth.com/mod/1IjD5062",
+        "version": "3.0.0+1.20.1"
+    },
+    {
+        "filename": "CreativeCore_FABRIC_v2.12.34_mc1.20.1.jar",
+        "name": "CreativeCore",
+        "url": "https://modrinth.com/mod/OsZiaDHq",
+        "version": "2.12.34"
+    },
+    {
+        "filename": "death_knights-fabric-1.0.0-1.20.1.jar",
+        "name": "Death Knights",
+        "url": "https://modrinth.com/mod/2EQER1gD",
+        "version": "1.0.0"
+    },
+    {
+        "filename": "dynamic-fps-3.9.5+minecraft-1.20.0-fabric.jar",
+        "name": "Dynamic FPS",
+        "url": "https://modrinth.com/mod/LQ3K71Q1",
+        "version": "3.9.5"
+    },
+    {
+        "filename": "emi-1.1.22+1.20.1+fabric.jar",
+        "name": "EMI",
+        "url": "https://modrinth.com/mod/fRiHVvU7",
+        "version": "1.1.22+1.20.1+fabric"
+    },
+    {
+        "filename": "entity_model_features_1.20.1-fabric-3.0.1.jar",
+        "name": "Entity Model Features",
+        "url": "https://modrinth.com/mod/4I1XuqiY",
+        "version": "3.0.1"
+    },
+    {
+        "filename": "entity_texture_features_1.20.1-fabric-7.0.2.jar",
+        "name": "Entity Texture Features",
+        "url": "https://modrinth.com/mod/BVzZfTc1",
+        "version": "7.0.2"
+    },
+    {
+        "filename": "entityculling-fabric-1.9.3-mc1.20.1.jar",
+        "name": "EntityCulling",
+        "url": "https://modrinth.com/mod/NNAgCjsB",
+        "version": "1.9.3"
+    },
+    {
+        "filename": "eternal_attributes-fabric-1.0.0-1.20.1.jar",
+        "name": "Eternal Attributes",
+        "url": "https://modrinth.com/mod/gRpWzx1s",
+        "version": "1.0.0"
+    },
+    {
+        "filename": "fabric-api-0.92.6+1.20.1.jar",
+        "name": "Fabric API",
+        "url": "https://modrinth.com/mod/P7dR8mSH",
+        "version": "0.92.6+1.20.1"
+    },
+    {
+        "filename": "fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+        "name": "Fabric Language Kotlin",
+        "url": "https://modrinth.com/mod/Ha28R6CL",
+        "version": "1.13.7+kotlin.2.2.21"
+    },
+    {
+        "filename": "FarmersDelight-1.20.1-2.4.0+refabricated.jar",
+        "name": "Farmer's Delight",
+        "url": "https://modrinth.com/mod/7vxePowz",
+        "version": "1.20.1-2.4.0+refabricated"
+    },
+    {
+        "filename": "ferritecore-6.0.1-fabric.jar",
+        "name": "FerriteCore",
+        "url": "https://modrinth.com/mod/uXXizFIs",
+        "version": "6.0.1"
+    },
+    {
+        "filename": "gazebo-1.1.1+1.20.1.jar",
+        "name": "Gazebos",
+        "url": "https://modrinth.com/mod/XIpMGI6r",
+        "version": "1.1.1+1.20.1"
+    },
+    {
+        "filename": "geckolib-fabric-1.20.1-4.8.2.jar",
+        "name": "GeckoLib 4",
+        "url": "https://modrinth.com/mod/8BmcQJ2H",
+        "version": "4.8.2"
+    },
+    {
+        "filename": "Icarus-Fabric-2.12.0.jar",
+        "name": "Icarus",
+        "url": "https://modrinth.com/mod/Dw7M6XKW",
+        "version": "2.12.0"
+    },
+    {
+        "filename": "ImmediatelyFast-Fabric-1.5.2+1.20.4.jar",
+        "name": "ImmediatelyFast",
+        "url": "https://modrinth.com/mod/5ZwdcRci",
+        "version": "1.5.2+1.20.4"
+    },
+    {
+        "filename": "indium-1.0.36+mc1.20.1.jar",
+        "name": "Indium",
+        "url": "https://modrinth.com/mod/Orvt0mRa",
+        "version": "1.0.36+mc1.20.1"
+    },
+    {
+        "filename": "iris-1.7.6+mc1.20.1.jar",
+        "name": "Iris",
+        "url": "https://modrinth.com/mod/YL57xq9U",
+        "version": "1.7.6+mc1.20.1"
+    },
+    {
+        "filename": "Jade-1.20-Fabric-11.13.1.jar",
+        "name": "Jade",
+        "url": "https://modrinth.com/mod/nvQzSEkH",
+        "version": "11.13.1+fabric"
+    },
+    {
+        "filename": "Jewelry-1.3.7+1.20.1.jar",
+        "name": "Jewelry (RPG Series)",
+        "url": "https://modrinth.com/mod/sNJAIjUm",
+        "version": "1.3.7+1.20.1"
+    },
+    {
+        "filename": "Jupiter-2.2.2-fabric.jar",
+        "name": "Jupiter",
+        "url": "https://modrinth.com/mod/XbiLGMMU",
+        "version": "2.2.2"
+    },
+    {
+        "filename": "lne_archers-0.1.9-1.20.1.jar",
+        "name": "L&E Archers-Add On",
+        "url": "https://modrinth.com/mod/Zl6rTul9",
+        "version": "0.1.9-1.20.1"
+    },
+    {
+        "filename": "lne_paladins-0.1.12-1.20.1.jar",
+        "name": "L&E Paladins-Add On",
+        "url": "https://modrinth.com/mod/ysICqMga",
+        "version": "0.1.12-1.20.1"
+    },
+    {
+        "filename": "lne_rogues-0.1.6-1.20.1.jar",
+        "name": "L&E Rogues-Add On",
+        "url": "https://modrinth.com/mod/JEvQhsp7",
+        "version": "0.1.6-1.20.1"
+    },
+    {
+        "filename": "lne_wizards-0.1.11-1.20.1.jar",
+        "name": "L&E Wizards-Add On",
+        "url": "https://modrinth.com/mod/vukREL4F",
+        "version": "0.1.11-1.20.1"
+    },
+    {
+        "filename": "lithium-fabric-mc1.20.1-0.11.3.jar",
+        "name": "Lithium",
+        "url": "https://modrinth.com/mod/gvQqBUqZ",
+        "version": "0.11.3"
+    },
+    {
+        "filename": "medievalorigins-fabric-1.20.1-6.7.1.jar",
+        "name": "Medieval Origins Revival",
+        "url": "https://modrinth.com/mod/3FJ8AhW0",
+        "version": "6.7.1"
+    },
+    {
+        "filename": "modmenu-7.2.2.jar",
+        "name": "Mod Menu",
+        "url": "https://modrinth.com/mod/mOgUt4GM",
+        "version": "7.2.2"
+    },
+    {
+        "filename": "modernfix-fabric-5.24.4+mc1.20.1.jar",
+        "name": "ModernFix",
+        "url": "https://modrinth.com/mod/nmDcB62a",
+        "version": "5.24.4+mc1.20.1"
+    },
+    {
+        "filename": "moreculling-1.20.4-0.24.0.jar",
+        "name": "More Culling",
+        "url": "https://modrinth.com/mod/51shyZVL",
+        "version": "1.20.4-0.24.0"
+    },
+    {
+        "filename": "more_rpg_classes-1.2.18-1.20.1.jar",
+        "name": "More RPG Classes",
+        "url": "https://modrinth.com/mod/Wkc3lwHo",
+        "version": "1.2.18-1.20.1"
+    },
+    {
+        "filename": "Necronomicon-Fabric-1.6.0+1.20.1.jar",
+        "name": "Necronomicon",
+        "url": "https://modrinth.com/mod/P1Kv5EAO",
+        "version": "1.6.0"
+    },
+    {
+        "filename": "NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+        "name": "No Chat Reports",
+        "url": "https://modrinth.com/mod/qQyHxfxd",
+        "version": "1.20.1-v2.2.2"
+    },
+    {
+        "filename": "Origins-1.10.2+mc.1.20.x.jar",
+        "name": "Origins",
+        "url": "https://modrinth.com/mod/3BeIrqZR",
+        "version": "NONE"
+    },
+    {
+        "filename": "origins-plus-plus-2.4.jar",
+        "name": "Origins++",
+        "url": "https://modrinth.com/mod/npBe7UbS",
+        "version": "2.4"
+    },
+    {
+        "filename": "packetfixer-3.3.0-1.18-1.20.4-merged.jar",
+        "name": "PacketFixer",
+        "url": "https://modrinth.com/mod/c7m1mi73",
+        "version": "3.3.0"
+    },
+    {
+        "filename": "paladins-1.4.0+1.20.1.jar",
+        "name": "Paladins & Priests (RPG Series)",
+        "url": "https://modrinth.com/mod/FxXkHaLe",
+        "version": "1.4.0+1.20.1"
+    },
+    {
+        "filename": "Pehkui-3.8.3+1.14.4-1.21.jar",
+        "name": "Pehkui",
+        "url": "https://modrinth.com/mod/t5W7Jfwy",
+        "version": "3.8.3+1.14.4-1.21"
+    },
+    {
+        "filename": "player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+        "name": "Player Animator",
+        "url": "https://modrinth.com/mod/gedNE4y2",
+        "version": "1.0.2-rc1+1.20"
+    },
+    {
+        "filename": "polymorph-fabric-0.49.10+1.20.1.jar",
+        "name": "Polymorph",
+        "url": "https://modrinth.com/mod/tagwiZkJ",
+        "version": "0.49.10+1.20.1"
+    },
+    {
+        "filename": "PresenceFootsteps-1.10.1+1.20.1.jar",
+        "name": "Presence Footsteps",
+        "url": "https://modrinth.com/mod/rcTfTZr3",
+        "version": "1.10.1+1.20.1"
+    },
+    {
+        "filename": "ranged_weapon_api-1.1.4+1.20.1.jar",
+        "name": "RangedWeaponAPI",
+        "url": "https://modrinth.com/mod/AqaIIO6D",
+        "version": "1.1.4+1.20.1"
+    },
+    {
+        "filename": "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+        "name": "Reese's Sodium Options",
+        "url": "https://modrinth.com/mod/Bh37bMuy",
+        "version": "1.7.2+mc1.20.1-build.101"
+    },
+    {
+        "filename": "resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+        "name": "Resourcefulconfig",
+        "url": "https://modrinth.com/mod/M1953qlQ",
+        "version": "2.1.3"
+    },
+    {
+        "filename": "rogues-1.2.0+1.20.1.jar",
+        "name": "Rogues & Warriors (RPG Series)",
+        "url": "https://modrinth.com/mod/3MKqoGuP",
+        "version": "1.2.0+1.20.1"
+    },
+    {
+        "filename": "runes-0.9.13+1.20.1.jar",
+        "name": "Runes",
+        "url": "https://modrinth.com/mod/lP9Yrr1E",
+        "version": "0.9.13+1.20.1"
+    },
+    {
+        "filename": "ShieldAPI-1.0.1+1.20.1.jar",
+        "name": "Shield API",
+        "url": "https://modrinth.com/mod/y9clIFY4",
+        "version": "1.0.1+1.20.1"
+    },
+    {
+        "filename": "voicechat-fabric-1.20.1-2.6.6.jar",
+        "name": "Simple Voice Chat",
+        "url": "https://modrinth.com/mod/9eGKb6K1",
+        "version": "1.20.1-2.6.6"
+    },
+    {
+        "filename": "sodium-fabric-0.5.13+mc1.20.1.jar",
+        "name": "Sodium",
+        "url": "https://modrinth.com/mod/AANobbMI",
+        "version": "0.5.13+mc1.20.1"
+    },
+    {
+        "filename": "sodium-extra-0.5.9+mc1.20.1.jar",
+        "name": "Sodium Extra",
+        "url": "https://modrinth.com/mod/PtjYWJkn",
+        "version": "0.5.9+mc1.20.1"
+    },
+    {
+        "filename": "spell_engine-0.15.12+1.20.1.jar",
+        "name": "Spell Engine",
+        "url": "https://modrinth.com/mod/XvoWJaA2",
+        "version": "0.15.12+1.20.1"
+    },
+    {
+        "filename": "spell_power-0.12.0+1.20.1.jar",
+        "name": "Spell Power Attribute",
+        "url": "https://modrinth.com/mod/8ooWzSQP",
+        "version": "0.12.0+1.20.1"
+    },
+    {
+        "filename": "structure_pool_api-1.0+1.20.1.jar",
+        "name": "Structure Pool API",
+        "url": "https://modrinth.com/mod/LrYZi08Q",
+        "version": "1.0+1.20.1"
+    },
+    {
+        "filename": "trinkets-3.7.2.jar",
+        "name": "Trinkets",
+        "url": "https://modrinth.com/mod/5aaWibi9",
+        "version": "3.7.2"
+    },
+    {
+        "filename": "uranus-2.2.6-1.20.1-fabric.jar",
+        "name": "Uranus",
+        "url": "https://modrinth.com/mod/3Acxy864",
+        "version": "2.2.6"
+    },
+    {
+        "filename": "useless-reptile-0.7.4-1.20.1.jar",
+        "name": "Useless Reptile",
+        "url": "https://modrinth.com/mod/YE4QRt8F",
+        "version": "0.7.4-1.20.1"
+    },
+    {
+        "filename": "visuality-0.7.1+1.20.jar",
+        "name": "Visuality",
+        "url": "https://modrinth.com/mod/rI0hvYcd",
+        "version": "0.7.1+1.20"
+    },
+    {
+        "filename": "wizards-1.4.1+1.20.1.jar",
+        "name": "Wizards (RPG Series)",
+        "url": "https://modrinth.com/mod/NkGaQMDA",
+        "version": "1.4.1+1.20.1"
+    },
+    {
+        "filename": "xlpackets-fabric-1.20.1-1.0.5.jar.disabled",
+        "name": "XXLPackets",
+        "url": "https://modrinth.com/mod/SeCuopwJ",
+        "version": "1.0.5"
+    },
+    {
+        "filename": "Xaeros_Minimap_25.2.10_Fabric_1.20.jar",
+        "name": "Xaero's Minimap",
+        "url": "https://modrinth.com/mod/1bokaNcj",
+        "version": "25.2.10"
+    },
+    {
+        "filename": "XaerosWorldMap_1.39.12_Fabric_1.20.jar",
+        "name": "Xaero's World Map",
+        "url": "https://modrinth.com/mod/NcUtCpym",
+        "version": "1.39.12"
+    },
+    {
+        "filename": "YungsApi-1.20-Fabric-4.0.6.jar",
+        "name": "YUNG's API",
+        "url": "https://modrinth.com/mod/Ua7DFN59",
+        "version": "1.20-Fabric-4.0.6"
+    },
+    {
+        "filename": "YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+        "name": "YUNG's Better Dungeons",
+        "url": "https://modrinth.com/mod/o1C1Dkj5",
+        "version": "1.20-Fabric-4.0.4"
+    },
+    {
+        "filename": "YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+        "name": "YUNG's Better End Island",
+        "url": "https://modrinth.com/mod/2BwBOmBQ",
+        "version": "1.20-Fabric-2.0.6"
+    },
+    {
+        "filename": "YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
+        "name": "YUNG's Better Jungle Temples",
+        "url": "https://modrinth.com/mod/z9Ve58Ih",
+        "version": "1.20-Fabric-2.0.5"
+    },
+    {
+        "filename": "YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+        "name": "YUNG's Better Mineshafts",
+        "url": "https://modrinth.com/mod/HjmxVlSr",
+        "version": "1.20-Fabric-4.0.4"
+    },
+    {
+        "filename": "YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+        "name": "YUNG's Better Nether Fortresses",
+        "url": "https://modrinth.com/mod/Z2mXHnxP",
+        "version": "1.20-Fabric-2.0.6"
+    },
+    {
+        "filename": "YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+        "name": "YUNG's Better Ocean Monuments",
+        "url": "https://modrinth.com/mod/3dT9sgt4",
+        "version": "1.20-Fabric-3.0.4"
+    },
+    {
+        "filename": "yet_another_config_lib_v3-3.6.6+1.20.1-fabric.jar",
+        "name": "YetAnotherConfigLib",
+        "url": "https://modrinth.com/mod/1eAoo2KR",
+        "version": "3.6.6+1.20.1-fabric"
+    },
+    {
+        "filename": "zenith-1.2.5-1.20.1.jar",
+        "name": "Zenith",
+        "url": "https://modrinth.com/mod/TLZe11Uj",
+        "version": "1.2.5-1.20.1"
+    },
+    {
+        "filename": "zenith_attributes-0.2.10.jar",
+        "name": "Zenith Attributes",
+        "url": "https://modrinth.com/mod/9sxDq6mj",
+        "version": "0.2.10"
+    },
+    {
+        "filename": "zephyr-0.5.0+1.20.1.jar",
+        "name": "Zephyr",
+        "url": "https://modrinth.com/mod/14bALK1y",
+        "version": "0.5.0+1.20.1"
+    },
+    {
+        "filename": "Zoomify-2.14.6+1.20.1.jar",
+        "name": "Zoomify",
+        "url": "https://modrinth.com/mod/w7ThoJFB",
+        "version": "2.14.6+1.20.1"
+    },
+    {
+        "filename": "fakerlib-0.1.5.jar",
+        "name": "fakerlib",
+        "url": "https://modrinth.com/mod/ORX9fPw1",
+        "version": "0.1.5"
+    },
+    {
+        "filename": "overzenith-1.0.0.jar",
+        "name": "overzenith",
+        "url": "https://modrinth.com/mod/X0PPvZ3Z",
+        "version": "1.0.0"
+    }
+]
