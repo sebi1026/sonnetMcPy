@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# images
+sonnetlogo.ico
+upscaledlogo.png
+
 # C extensions
 *.so
 
