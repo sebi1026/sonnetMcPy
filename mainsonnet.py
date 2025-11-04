@@ -21,9 +21,13 @@ class sonnetApp(ctk.CTk):
         self.iconbitmap(False, "images/sonnetlogo.ico")
 
         self.modlist_path = ctk.StringVar()
-        self.output_dir = ctk.StringVar(value="mods")
+        self.output_dir = ctk.StringVar()
+        self.failed_downloads = []
 
         # UI Layout
+
+        welcome_label = ctk.CTkLabel(self, text="sonnetMcPy - Prism Modlist Downloader (Modrinth)", font=ctk.CTkFont(size=20, weight="bold"))
+        welcome_label.pack(pady=10)
         ctk.CTkLabel(self, text="Modlist File:").pack(anchor="w", padx=10, pady=(10, 0))
         file_frame = ctk.CTkFrame(self)
         file_frame.pack(fill="x", padx=10)
@@ -117,6 +121,7 @@ class sonnetApp(ctk.CTk):
             )
 
             if not version_data:
+                self.failed_downloads.append(mod["name"])
                 return f"❌ {mod['name']}: version not found"
 
             file = version_data["files"][0]
@@ -140,7 +145,7 @@ class sonnetApp(ctk.CTk):
             for i, result in enumerate(executor.map(process_mod, mods), start=1):
                 self.log(result)
                 self.overall_progress.set(i / total_mods)
-
+        self.log(f"❗ Failed downloads: {', '.join(self.failed_downloads)}" if self.failed_downloads else "✅ All downloads successful!")
         self.log("✅ Complete!")
 
 
