@@ -6,6 +6,8 @@ import customtkinter as ctk
 from tkinter import filedialog
 import threading
 
+gameversion = "1.20.1"
+
 MAX_WORKERS = 8
 
 ctk.set_appearance_mode("dark")
@@ -98,31 +100,68 @@ class sonnetApp(ctk.CTk):
         self.overall_progress.set(0)
 
         def process_mod(mod):
-            project_id = mod["url"].split("/")[-1]
+            url = mod["url"]
             version_str = mod["version"]
 
+            # ----- CurseForge Handling -----
+            if "curseforge.com" in url:
+                try:
+                    project_id = url.rstrip("/").split("/")[-1]
+                    api = f"https://api.cfwidget.com/{project_id}"
+                    data = requests.get(api).json()
+
+                    files = data.get("files", [])
+                    file_entry = next(
+                        (f for f in files if mod['filename'] in f["display"]),
+                        None
+                    )
+
+                    if not file_entry:
+                        return f"❌ {mod['name']} (CurseForge): version {version_str} not found"
+
+                    filename = file_entry["display"]
+                    dl_url = file_entry["url"]
+                    dl_code = dl_url.rstrip("/").split("/")[-1]
+                    dl_url = f"https://www.curseforge.com/api/v1/mods/{project_id}/files/{dl_code}/download"
+
+                    output_path = Path(self.output_dir.get()) / filename
+                    if output_path.exists():
+                        return f"✅ {filename} exists, skipped"
+
+                    self.current_progress.set(0)
+                    self.download_file(dl_url, output_path)
+                    return f"⬇️ Downloaded {filename} from CurseForge"
+
+                except Exception as e:
+                    return f"❌ CurseForge error for {mod['name']}: {e}"
+
+            # ----- Modrinth Handling ------
+            project_id = url.split("/")[-1]
             versions = requests.get(f"https://api.modrinth.com/v2/project/{project_id}/version").json()
+
+            str.replace(mod["name"], " ", "-")
+
+            strippedver = str.replace(mod["filename"], ".jar", "")
+            strippedver = str.replace(strippedver, mod["name"], "")
+            strippedver = str.replace(strippedver, "-", "")
+            print(strippedver)
 
             candidates = [
                 version_str,
-                version_str + "+fabric",
-                version_str + "-fabric",
+                version_str + "+neoforge",
+                version_str + "-neoforge",
+                strippedver,
             ]
-
             version_data = next(
-                (
-                    v for v in versions
-                    if any(
-                        c in v["version_number"] or v["version_number"].endswith(c)
-                        for c in candidates
-                    )
-                ),
+                (v for v in versions if any(
+                    c in v["version_number"] or v["version_number"].endswith(c)
+                    for c in candidates
+                )),
                 None
             )
 
             if not version_data:
-                self.failed_downloads.append(mod["name"])
-                return f"❌ {mod['name']}: version not found"
+                return f"❌ {mod['name']}: version not found (Modrinth)"
 
             file = version_data["files"][0]
             for f in version_data["files"]:
@@ -132,14 +171,15 @@ class sonnetApp(ctk.CTk):
 
             url = file["url"]
             filename = file["filename"]
-            filepath = output_dir / filename
+            filepath = Path(self.output_dir.get()) / filename
 
             if filepath.exists():
                 return f"✅ {filename} exists, skipped"
 
             self.current_progress.set(0)
             self.download_file(url, filepath)
-            return f"⬇️ Downloaded {filename}"
+            return f"⬇️ Downloaded {filename} from Modrinth"
+
 
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             for i, result in enumerate(executor.map(process_mod, mods), start=1):
